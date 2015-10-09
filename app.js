@@ -29,7 +29,7 @@ var request_file = function(feed) {
 
 var check_file = function(feed) {
   console.log(feed.url);
-  console.log(xpath.select(argv.xpath, feed.dom));
+  console.log(xpath.select(argv.xpath, feed.dom).toString());
   console.log("");
 };
 
