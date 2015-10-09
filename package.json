@@ -1,0 +1,15 @@
+{
+  "name": "xml_feed_checker",
+  "version": "0.0.1",
+  "description": "Check multiple xml feeds with a single xpath expression.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sebastian Gilits <sep.gil@gmail.com>",
+  "license": "GPL-2.0",
+  "dependencies": {
+    "xmldom": "^0.1.19",
+    "xpath": "0.0.9"
+  }
+}
