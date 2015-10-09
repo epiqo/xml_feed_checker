@@ -1,6 +1,5 @@
 #!/usr/bin/env node
 
-var http = require('http');
-var xpath = require('xpath');
-var dom = require('xmldom').DOMParser;
-var yaml = require('js-yaml');
+// ES6 wrapper
+require('babel/register');
+require('./app.js');

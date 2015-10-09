@@ -9,10 +9,14 @@
   "author": "Sebastian Gilits <sep.gil@gmail.com>",
   "license": "GPL-2.0",
   "dependencies": {
+    "babel": "^5.8.23",
     "js-yaml": "^3.4.2",
     "lodash": "^3.10.1",
     "request": "^2.64.0",
     "xmldom": "^0.1.19",
     "xpath": "0.0.9"
+  },
+  "devDependencies": {
+    "babel-core": "^5.8.25"
   }
 }
